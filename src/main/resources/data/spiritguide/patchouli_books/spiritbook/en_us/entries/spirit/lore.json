@@ -1,0 +1,17 @@
+{
+    "name": "Musings on Spawners",
+    "icon": "minecraft:spawner",
+    "category": "spiritguide:spirit",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Dark, flaming cages of strange metal which spew forth a torrent of endless monsters. These are $(item)spawners$(), and their existence has not been questioned often. Like many things in the world, they simply are; a fact of life, as it were. Yet, I always find myself wondering: what are they shaped from? What powers them?"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:broken_spawner",
+            "text": "In an effort to understand how these mysterious constructs work, I discovered that when breaking them, one is left with a powerless, ruined device. A practice I discovered later, known as $(thing)soul engulfing$(), can aid in the restoration and revitalization of this construct."
+        }
+    ]
+}

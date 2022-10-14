@@ -1,0 +1,218 @@
+{
+    "name": "Soul Revitalizer",
+    "icon": "vitalize:soul_revitalizer",
+    "category": "spiritguide:spirit",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This wondrous device is a modified $(item)soul cage$(). It harnesses the souls within a $(item)soul crystal$(), to produce that entity's drops directly, instead of spawning them."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:soul_revitalizer",
+            "title": "Requirements",
+            "text": "To operate, this construct requires eight $(item)pylons$() of any type, an inventory such as a $(item)chest$() or $(item)barrel$(), and $(thing)power$().$(br2)Once all requirements are fulfilled, the revitalizer will begin working upon being given a $(item)soul crystal$() of sufficient $(thing)tier$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_cage",
+            "title": "Tiers",
+            "text": "Much like the $(item)soul cage$(), the revitalizer's effectiveness is dependent on the $(thing)tier$() of your provided $(item)soul crystal$(). As the two devices are almost exactly the same in this regard, I shall not repeat myself on this matter, refer to the entry for the soul cage."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_base",
+            "title": "Pylons",
+            "text": "The revitalizer's attributes can be changed by using different $(item)pylons$(). These can do anything from increasing the energy efficiency of the device, to allowing it to produce experience from its work. The following pages shall list how to use the $(thing)pylon focus structure$() to create them, and what their effects are."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_beheading",
+            "link_recipe": "true",
+            "text": "By utilizing the pylon focus, one can engulf a $(item)dragon head$() to create a beheading pylon. This pylon increases the chance of obtaining heads from entities, but at an increase in power consumed. Up to three can be positioned on a revitalizer."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_efficiency",
+            "link_recipe": "true",
+            "text": "By utilizing the pylon focus, one can engulf a $(item)netherite ingot$() to create an effiency pylon. This pylon lessens the amount of power consumed from the revitalizer device, and one can place up to five at once."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_looting",
+            "link_recipe": "true",
+            "text": "By utilizing the pylon focus, one can engulf an $(item)enchanted golden apple$() to create a looting pylon. This pylon increases the $(thing)looting level$() of the revitalizer, at a cost of increased power consumption. One revitalizer may have up to three."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_speed",
+            "link_recipe": "true",
+            "text": "By utilizing the pylon focus, one can engulf a $(item)rabbit's foot$() to create a speed pylon. This pylon increases the $(thing)work speed$() of the revitalizer, at a cost of increased power consumption. At most five may be placed on one device."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_experience",
+            "link_recipe": "true",
+            "text": "By utilizing the pylon focus, one can engulf a $(item)sculk catalyst$() to create an experience pylon. This pylon increases the $(thing)experience gains$() of the revitalizer, at a cost of increased power consumption. At most three may be placed."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_flame",
+            "link_recipe": "true",
+            "text": "By utilizing the pylon focus, one can engulf a $(item)blaze rod$() to create a flame pylon. This pylon $(thing)burns$() mobs conjured by the revitalizer, at a cost of increased power consumption. Only one may be placed."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_recursive",
+            "link_recipe": "true",
+            "text": "By utilizing the pylon focus, one can engulf a $(item)nether star$() to create a recursive pylon. This pylon provides a fifteen percent chance to $(thing)add a soul$() to the contained $(item)soul crystal$(), at a steep power cost. Only one may be placed in the revitalizer structure."
+        }
+    ]
+}

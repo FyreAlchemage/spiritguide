@@ -1,0 +1,31 @@
+  {
+    "name": "Soul Steel",
+    "icon": "spirit:soul_steel_ingot",
+    "category": "spiritguide:spirit",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This material, crafted via $(thing)soul engulfing$(), can be used in a multitude of ways. One of the obvious applications is shaping it into tools and weapons. Curiously, this equipment has unique properties $(thing)depending on the type of soul it is empowered with$() from a carried $(item)soul crystal$(). It will also restore itself if tossed in soulfire."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "spirit:crafting/soul_steel_sword",
+            "recipe2": "spirit:crafting/soul_steel_axe"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "spirit:crafting/soul_steel_pickaxe",
+            "recipe2": "spirit:crafting/soul_steel_shovel"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "spirit:crafting/soul_steel_hoe",
+            "recipe2": "spirit:crafting/soul_steel_bow"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "spirit:crafting/soul_steel_wand",
+            "text": "Lastly, the $(item)wand$(). This tool is... special. (I don't know what it does.)"
+        }
+    ]
+}

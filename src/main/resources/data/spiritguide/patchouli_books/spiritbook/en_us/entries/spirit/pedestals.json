@@ -1,0 +1,52 @@
+{
+    "name": "Pedestals",
+    "category": "spiritguide:spirit",
+    "icon": "spirit:soul_pedestal",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Pedestals may be used to decoratively display items, or perform $(thing)summonings$() if arranged particularly."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "spirit:crafting/pedestal",
+            "text": "For the holding of items."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "spirit:crafting/crystal_pedestal",
+            "text": "If one places a $(item)crude soul crystal$() on this pedestal, one may then empty the souls out of their $(item)soul crystal$(), for convenience."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "spirit:crafting/soul_pedestal",
+            "text": "Key for $(thing)summonings$(), detailed on the following pages."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Summoning Altar",
+            "multiblock": {
+                "mapping": {
+                    "P": "spirit:pedestal",
+                    "0": "spirit:soul_pedestal"
+                },
+                "pattern": [
+                    ["   P   ",
+                    " P   P ",
+                    "       ",
+                    "P  0  P",
+                    "       ",
+                    " P   P ",
+                    "   P   "
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_steel_wand",
+            "title": "Summoning",
+            "text": "This structure allows the practitioner to perform $(thing)summonings$() by infusing a soul with particular items to change its nature. Arrange the items on the outer pedestals, and a $(item)soul crystal$() with the required soul on the central one, then touch it with empty hands. However, as I write this, there is no known combination of items and soul that brings about any reaction...."
+        }
+    ]
+}

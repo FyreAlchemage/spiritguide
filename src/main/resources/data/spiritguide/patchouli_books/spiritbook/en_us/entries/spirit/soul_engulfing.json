@@ -1,0 +1,229 @@
+{
+    "name": "Soul Engulfing",
+    "icon": "minecraft:soul_soil",
+    "category": "spiritguide:spirit",
+    "priority": "true",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "To align substances with the energies of souls, it is required to engulf them in the blue flame produced by setting $(item)soul sand$() alight. This process is known as $(thing)soul engulfing$(). Listed here are all the recipes which use it."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_powder",
+            "link_recipe": "true",
+            "text": "A blue powder that glitters with once bright light. To obtain this dust, let $(item)glowstone dust$() burn in soulfire."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_slate",
+            "link_recipe": "true",
+            "text": "The soulfire polishes the stone and tinges it blue. To obtain this rock, let $(item)deepslate$() burn in soulfire."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "For more complex creations, simply using soulfire is not enough, and a $(thing)focus structure$() is needed to be built. The energy of the process is so virulent that the structure will be destroyed in the process. I shall list the structures and their uses on the following pages."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Soul Powder Focusing Ring",
+            "multiblock": {
+                "mapping": {
+                    "P": "spirit:soul_powder_block",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" P ",
+                    "P0P",
+                    " P "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_steel_ingot",
+            "link_recipe": "true",
+            "text": "By surrounding the soulfire with soul powder, one can then engulf $(item)iron ingots$() into a far more durable form. This steel shares many properties with the cages I try to reconstruct. It has also proven a versatile material, better discussed in its own entry."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Compressed Focusing Ring",
+            "multiblock": {
+                "mapping": {
+                    "P": "spirit:compressed_soul_powder_block",
+                    "0": "spirit:compressed_soul_sand"
+                },
+                "pattern": [
+                    [" P ",
+                    "P0P",
+                    " P "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_steel_block",
+            "link_recipe": "true",
+            "text": "By surrounding the soulfire with compressed soul powder and exchanging regular soul sand for compressed soul sand, one can then engulf $(item)iron blocks$() into blocks of $(item)soul steel$()."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Lapis Focusing Ring",
+            "multiblock": {
+                "mapping": {
+                    "L": "minecraft:lapis_block",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" L ",
+                    "L0L",
+                    " L "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_glass",
+            "link_recipe": "true",
+            "text": "By surrounding the soulfire with lapis, one can then engulf $(item)tinted glass$(); the process turns the glass blue. While serving as a pretty decoration block, this glass also has other uses. It should be noted that this process $(bold)does not$() destroy its focus structure."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Soul Steel Focusing Ring",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_steel_block",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" S ",
+                    "S0S",
+                    " S "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_cage",
+            "link_recipe": "true",
+            "text": "By surrounding the soulfire with soul steel, one can then engulf a $(item)broken spawner$() to restore it - and more. This creation is better detailed in its own entry."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Quartz Focusing Ring",
+            "multiblock": {
+                "mapping": {
+                    "Q": "minecraft:quartz_block",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" Q ",
+                    "Q0Q",
+                    " Q "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_crystal_shard",
+            "link_recipe": "true",
+            "text": "By surrounding the soulfire with quartz, one can then engulf $(item)soul powder$() into a crystalline form. So imbued, the crystal holds the property to absorb the souls of things one kills while it is carried - once."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Slate Focusing Ring",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" S ",
+                    "S0S",
+                    " S "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:crude_soul_crystal",
+            "link_recipe": "true",
+            "text": "By surrounding the soulfire with soul slate, one can then further refine the $(item)soul crystal shard$(). This has the effect of allowing it to contain 256 souls, rather than one."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Glass Focusing Ring",
+            "multiblock": {
+                "mapping": {
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G0G",
+                    " G "]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_crystal",
+            "link_recipe": "true",
+            "text": "By surrounding the soulfire with soul glass, one can even further refine the $(item)crude soul crystal$(). This seems to enhance its functions entirely, and in combination with the $(item)soul cage$(), is key to creating one's own spawner."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:soul_revitalizer",
+            "link_recipe": "true",
+            "text": "By surrounding the soulfire with a more elaborate structure I have named the pylon focus, one can engulf a $(item)soul cage$() to create a soul revitalizer. I have written about this miraculous device in another entry."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Pylon Focus",
+            "multiblock": {
+                "mapping": {
+                    "S": "spirit:soul_slate",
+                    "T": "spirit:soul_steel_block",
+                    "G": "spirit:soul_glass",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    [" G ",
+                    "G G",
+                    " G "
+                    ],
+                    ["STS",
+                    "T0T",
+                    "STS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "vitalize:pylon_base",
+            "link_recipe": "true",
+            "text": "By utilizing the pylon focus, one can engulf $(item)soul glass$() to create a decorative pylon. I have written about pylons in another entry, and further pylon recipes shall not be discussed here."
+        }
+    ]
+}

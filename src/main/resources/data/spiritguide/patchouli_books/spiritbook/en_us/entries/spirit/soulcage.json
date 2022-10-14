@@ -1,0 +1,35 @@
+ {
+    "name": "Soul Cage",
+    "icon": "spirit:soul_cage",
+    "category": "spiritguide:spirit",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "This cage hums with power. It rivals the ancient spawners themselves in its power, impressively. This cage's purpose is, of course, to $(thing)spawn mobs$(). For this, one will need a sufficiently empowered $(item)soul crystal$(), to tune the cage. The level of power on the soul crystal corresponds to the abilities of the soul cage it is given to."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_crystal_shard",
+            "title": "Tier 1",
+            "text": "The weakest soul crystal required to power a soul cage must have at least $(thing)64 souls$() within. The resultant cage will wait at least 300 ticks, and at most 1000 ticks, before spawning 3 entities, up to 5 meters away. You, or beings like you, must be within 16 meters of the cage for it to operate."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:crude_soul_crystal",
+            "title": "Tier 2",
+            "text": "To achieve this tier, the soul crystal must have at least $(thing)128 souls$() inside. The resultant cage will wait at least 150 ticks, and at most 600 ticks, before spawning 5 entities, up to 7 meters away. You, or beings like you, must be within 24 meters of the cage for it to operate."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_crystal",
+            "title": "Tier 3",
+            "text": "At least $(thing)256 souls$() must be within the soul crystal used for this tier. The resultant cage will wait at least 75 ticks, and at most 400 ticks, before spawning 7 entities, up to 9 meters away. You, or beings like you, must be within 32 meters of the cage for it to operate."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "spirit:soul_glass",
+            "title": "Tier 4",
+            "text": "The most powerful tier requires a soul crystal with $(thing)512 souls$() inside. The resultant cage will wait at least 25 ticks, and at most 300 ticks, before spawning 9 entities, up to 11 meters away. No presence is required for it to operate. You can further disable it with redstone."
+        }
+    ]
+}
