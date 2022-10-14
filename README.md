@@ -1,9 +1,3 @@
-# Fabric Example Mod
+# Spirit Guide
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Rather simple minecraft mod for the fabric/quilt loader which adds ingame documentation for Spirit and Vitalize, through Patchouli.
