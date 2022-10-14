@@ -2,7 +2,7 @@
     "name": "On Matters Phantasmal",
     "subtitle": "Symphony for the Spirit",
     "landing_text": "As my predecessors failed to document their workings adequately, if at all, I set out to compile my notes on soul magic so that newcomers might learn them.$(br2)Contained herein is information on matters relating to the creation and manipulation of souls themselves.",
-    "model": "patchouli:book_blue",
+    "model": "spiritguide:book",
     "book_texture": "patchouli:textures/gui/book_blue.png",
     "show_progress": "false",
     "pamphlet": "true"
