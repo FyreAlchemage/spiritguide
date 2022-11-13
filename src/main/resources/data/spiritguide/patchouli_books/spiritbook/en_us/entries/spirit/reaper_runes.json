@@ -1,0 +1,35 @@
+   {
+    "name": "Runes",
+    "icon": "reaper:rune_spiritus",
+    "category": "spiritguide:spirit",
+    "flag": "mod:reaper",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Certain devices, such as the $(item)Reaper Generator$() and $(item)Soul Beacon$(), may utilize runes for various effects. Most runes come in both an item form and a block form. Consult the devices' entries, for their purpose."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe2": "reaper:rune_blocks/beastia"
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "reaper:runes/dilatio",
+            "recipe2": "reaper:rune_blocks/dilatio"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "reaper:rune_dilatio",
+            "text": "When in a Reaper Generator, this rune will increase the range at which it may drain from.${br2}When in a Soul Beacon, it will do the same."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "reaper:runes/spiritus"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "reaper:rune_spiritus",
+            "text": "When in a Reaper Generator, this rune will allow it to kill as if it were a player, however it loses the capability to generate power.${br2}This rune has no effect in a Soul Beacon."
+        }
+    ]
+}

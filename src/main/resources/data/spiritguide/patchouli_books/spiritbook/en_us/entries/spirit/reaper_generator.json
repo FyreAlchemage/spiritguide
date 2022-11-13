@@ -1,0 +1,23 @@
+   {
+    "name": "Reaper Generator",
+    "icon": "reaper:reaper_generator",
+    "category": "spiritguide:spirit",
+    "flag": "mod:reaper",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The $(item)Reaper Generator$() is perhaps one of the finer things I have discovered. It is capable of draining the life out of nearby creatures, and using that life to produce $(thing)power$(), such as what the $(item)Revitalizer$() device would require."
+        },
+        {
+            "type": "patchouli:crafting",
+            "recipe": "reaper:reaper_generator",
+            "text": "Put those souls to work."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "reaper:rune_spiritus",
+            "title": "Runes",
+            "text": "This device can be augmented with $(item)runes$(), and, in fact, requires at least one to function. I have written on runes in a separate entry."
+        }
+    ]
+}

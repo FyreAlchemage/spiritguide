@@ -1,0 +1,45 @@
+   {
+    "name": "Soul Beacon",
+    "icon": "reaper:soul_beacon",
+    "category": "spiritguide:spirit",
+    "flag": "mod:reaper",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "The marvelous $(item)Soul Beacon$() will, when given a sufficient $(item)soul shard$(), project effects tied to the type of entity whose soul is stored, to creatures around it. Similarly to a normal beacon it must sit atop a pyramid of $(item)soul steel blocks$()."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "reaper:soul_beacon",
+            "link_recipe": "true",
+            "text": "The Soul Beacon is obtained by $(thing)engulfing$() a regular beacon, in the focusing structure displayed on the next page."
+        },
+        {
+            "type": "patchouli:multiblock",
+            "name": "Beacon Focus",
+            "multiblock": {
+                "mapping": {
+                    "C": "spirit:compressed_soul_sand_block",
+                    "S": "spirit:soul_slate",
+                    "0": "minecraft:soul_sand"
+                },
+                "pattern": [
+                    ["SCS",
+                    "C0C",
+                    "SCS"]
+                ]
+            }
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "reaper:rune_spiritus",
+            "title": "Runes",
+            "text": "The beacon can be augmented with $(item)runes$(), by placing them in block form, in the eight blocks beneath in place of the soul steel. I have written on how to craft runes in a separate entry. Following is their use."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "reaper:rune_block_beastia",
+            "text": "The Beastia rune allows the beacon to apply its effects to passive and neutral creatures within its range."
+        }
+    ]
+}
